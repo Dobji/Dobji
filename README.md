@@ -53,15 +53,18 @@
 <hr>
 
 <h2 style="text-align: center;">🎯 Quests Completed</h2>
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; max-width: 900px; margin: 0 auto;">
+<div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; max-width: 1100px; margin: 0 auto; flex-wrap: wrap;">
+  <!-- Текст слева -->
   <ul style="list-style: none; padding: 0; max-width: 600px; line-height: 1.5;">
     <li>🔧 Выжить до 21</li>
-    <li>🧰 Настроил и масштабировал пайплайны в GitHub Actions / GitLab CI — от MVP до продакшена. Повторяемо, стабильно, надежно.</li>
-    <li>📊 Разработал автоматические процедуры очистки логов, кэшей и артефактов — запуск по cron, событиям и webhook'ам.</li>
-    <li>🗝️ Настроил двусторонние интеграции через webhook'и — уведомления, триггеры, пуши в сторонние API.</li>
-    <li>🎮 Взаимодействовал с фронтенд разработчиков для игровых интерфейсов playabs</li>
-    <li>💾 Database Guardian Lv.3 — Автоматизированы миграции, регулярные бэкапы и восстановление данных на staging и production средах.</li>
+    <li>🧰 Настроил и масштабировал пайплайны...</li>
+    <li>📊 Разработал автоматические процедуры...</li>
+    <li>🗝️ Настроил двусторонние интеграции...</li>
+    <li>🎮 Взаимодействовал с фронтенд...</li>
+    <li>💾 Database Guardian Lv.3...</li>
   </ul>
+
+  <!-- GIF справа -->
   <div style="display: flex; flex-direction: column; gap: 20px;">
     <img src="pin.gif" alt="Quest Completed GIF" style="max-width: 300px; height: auto; border-radius: 10px;" />
     <img src="totoro-roar.gif" alt="Second Quest GIF" style="max-width: 300px; height: auto; border-radius: 10px;" />
@@ -134,20 +137,20 @@
 </style>
 
 <h2 style="text-align: center;">📜 Spellbook (Repositories)</h2>
-
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; max-width: 900px; margin: 0 auto;">
-  
-  <div class="glow-border">
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; max-width: 1100px; margin: 0 auto;">
+  <!-- Картинка слева -->
+  <div class="glow-border" style="flex-shrink: 0;">
     <img 
       src="76ca3a7ce890e7405950404114988c27.jpg" 
-      alt="Spellbook GIF" 
+      alt="Spellbook Image" 
       style="max-width: 200px; height: auto; display: block; border-radius: 8px;" 
     />
   </div>
 
+  <!-- Текст справа -->
   <ul style="list-style: none; padding: 0; max-width: 600px; font-family: Arial, sans-serif; line-height: 1.5;">
     <p style="font-style: italic;">*То чем занимаюсь*</p>
-    <li>🗃️ <a href="#" style="text-decoration: none; color: inherit;">Quest-Manager</a> — API для трекер</li>
+    <li>🗃️ <a href="#" style="text-decoration: none; color: inherit;">Quest-Manager</a> — API для трекера квестов</li>
     <li>🧾 <a href="#" style="text-decoration: none; color: inherit;">Player-Stats-Service</a> — CRUD для игровых данных</li>
     <li>⚙️ <a href="#" style="text-decoration: none; color: inherit;">Battle-Backend</a> — Пока в разработке</li>
   </ul>
@@ -156,8 +159,9 @@
 
 <hr>
 
-<h2 style="text-align: center;">📡 Connect with me</h2>
+<h2 style="text-align: center;">📡 Обращаться по</h2>
 
+<!-- Кнопка Telegram -->
 <div style="display: flex; justify-content: center; margin-top: 20px;">
   <a 
     href="https://t.me/Pojilai" 
@@ -188,25 +192,19 @@
     Зубы показываем в Telegram
   </a>
 </div>
+
+<!-- GIF на всю ширину -->
 <div style="margin-top: 30px;">
   <img 
     src="d75aa815d8f4676fdd0d28c7200882d8.gif" 
     alt="Fun GIF"
     style="
-      width: 100%; 
+      width: 100vw; 
+      max-width: 100%;
       height: auto; 
       display: block; 
       border-radius: 12px;
       filter: brightness(40%);
     "
-  />
-</div>
-
-
-<!-- Footer Banner -->
-<div align="center" style="margin-top: 0px;">
-  <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=green&height=100&section=footer"
-    alt="Footer Banner"
   />
 </div>
