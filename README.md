@@ -30,12 +30,12 @@
 </div>
 
 
-<h1 style="text-align: center;">🎮 Backend Adventurer | Code & Magic Alchemist</h1>
+<h1 align="center">🎮 Backend Adventurer | Code & Magic Alchemist</h1>
 
 <hr>
 
-<h2 style="text-align: center;">🧝‍♂️ Character Stats</h2>
-<ul style="max-width: 600px; margin: 0 auto; list-style: none; padding: 0; line-height: 1.5;">
+<h2 align="center">🧝‍♂️ Character Stats</h2>
+<ul style="max-width: 600px; margin: 0 auto; text-align: left; list-style: none; padding: 0; line-height: 1.5;">
   <li>🛠️ <strong>Role</strong>: Junior Backend Developer / Game Developer</li>
   <li>🧩 <strong>Skills</strong>: REST API, Auth Flows, SQL/NoSQL, Redis, MongoDB, Boost, Poco, gRPC, CMake ,CI/CD</li>
   <li>🧠 <strong>Traits</strong>: Fast Learner, Code Clarity Enthusiast, Team Spirit +10</li>
@@ -52,53 +52,64 @@
 
 <hr>
 
-<h2 style="text-align: center;">🎯 Quests Completed</h2>
-<div style="display: flex; flex-direction: row; justify-content: center; align-items: flex-start; gap: 20px; max-width: 1100px; margin: 0 auto; flex-wrap: wrap;">
-  <!-- Текст слева -->
-  <ul style="list-style: none; padding: 0; max-width: 600px; line-height: 1.5;">
-    <li>🔧 Выжить до 21</li>
-    <li>🧰 Настроил и масштабировал пайплайны...</li>
-    <li>📊 Разработал автоматические процедуры...</li>
-    <li>🗝️ Настроил двусторонние интеграции...</li>
-    <li>🎮 Взаимодействовал с фронтенд...</li>
-    <li>💾 Database Guardian Lv.3...</li>
-  </ul>
+<h2 align="center">🎯 Quests Completed</h2>
 
-  <!-- GIF справа -->
-  <div style="display: flex; flex-direction: column; gap: 20px;">
-    <img src="pin.gif" alt="Quest Completed GIF" style="max-width: 300px; height: auto; border-radius: 10px;" />
-    <img src="totoro-roar.gif" alt="Second Quest GIF" style="max-width: 300px; height: auto; border-radius: 10px;" />
-  </div>
+<table align="center" style="width: 100vw; table-layout: fixed;">
+  <tr>
+    <td style="width: 50%; vertical-align: top; padding-left: 20px;">
+      <ul>
+        <li>🔧 Выжить до 21</li>
+        <li>🧰 Настроил CI/CD пайплайны</li>
+        <li>📊 Авто-очистка логов и артефактов</li>
+        <li>🗝️ Вебхуки и триггеры</li>
+        <li>🎮 Работа с фронтом в playabs</li>
+        <li>💾 Database Guardian Lv.3</li>
+      </ul>
+    </td>
+    <td style="width: 50%; text-align: center; vertical-align: top;">
+      <img src="pin.gif" width="200px" alt="Quest Completed GIF"><br><br>
+      <img src="totoro-roar.gif" width="200px" alt="Second Quest GIF">
+    </td>
+  </tr>
+</table>
+
+
+
+
+<hr>
+
+<h2 align="center">🗺️ Current Mission</h2>
+
+<div salign="center">
+  <blockquote align="center">
+    Улучшить навыки в GameDev & WebTech, собрать "добжи" стек и попасть на мальдивы.
+  </blockquote>
 </div>
 
 <hr>
 
-<h2 style="text-align: center;">🗺️ Current Mission</h2>
-<blockquote style="max-width: 600px; margin: 0 auto; font-style: italic; text-align: center;">
-  Улучшить навыки в GameDev & WebTech, собрать "добжи" стек и попасть на мальдивы.
-</blockquote>
 
-<hr>
-
-<div style="max-width: 400px; margin: 20px auto; text-align: center;">
-  <img src="ramon-nunez-14.png" alt="Фото миссии" style="max-width: 100%; height: auto; border-radius: 8px;">
+<div style="max-width: 100px; margin: 10px auto; text-align: center;">
+  <img src="ramon-nunez-14.png" alt="Фото миссии" style="max-width: 50%; height: auto; border-radius: 8px;">
 </div>
 
-<div style="max-width: 400px; margin: 10px auto; text-align: center; font-style: italic; color: #555;">
+<div salign="center">
+  <blockquote align="center">
  As an achievement...my first completed art .p.s This is how I'm going to the Maldives.
+</blockquote>
 </div>
 
 <hr>
 
-<h2 style="text-align: center;">⚔️ Weapon Inventory (Tech Stack)</h2>
-<div style="text-align: center;">
-  <img src="https://go-skill-icons.vercel.app/api/icons?i=nodejs,express,mongodb,redis,git,github,postgresql,html,css,js" alt="Tech icons" width="800" />
+<h2 align="center">⚔️ Weapon Inventory (Tech Stack)</h2>
+<div align="center">
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=python,nodejs,express,mongodb,redis,git,github,postgresql,html,css,js" alt="Tech icons" width="800" />
   <br/>
   <img src="https://go-skill-icons.vercel.app/api/icons?i=figma,vscode,pycharm,postman,docker" alt="Tool icons" width="850" />
 </div>
 
-<p style="text-align: center;">⚔️ Game Dev Blacksmith Forge:</p>
-<div style="text-align: center;">
+<p align="center">⚔️ Game Dev Blacksmith Forge:</p>
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="40" height="40" alt="Unity" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="40" height="40" alt="Unreal Engine" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="40" height="40" alt="Blender" />
@@ -107,8 +118,8 @@
 
 <hr>
 
-<h2 style="text-align: center;">🧙‍♂️ Special Moves</h2>
-<ul style="max-width: 600px; margin: 0 auto; line-height: 1.5;">
+<h2 align="center">🧙‍♂️ Special Moves</h2>
+<ul align="center">
   <li>⚡ <code>Fast-Deploy</code>: Быстрая адаптация ко всему чему возможно</li>
   <li>🧠 <code>Mana Regeneration</code>: Постоянное обучение (и урон по mind)</li>
   <li>🕸️ <code>Web Hook Trap</code>: Интеграция сторонних сервисов</li>
@@ -116,82 +127,51 @@
 
 <hr>
 
-<style>
-  @keyframes glow {
-    0% {
-      box-shadow: 0 0 5px red;
-    }
-    50% {
-      box-shadow: 0 0 20px red;
-    }
-    100% {
-      box-shadow: 0 0 5px red;
-    }
-  }
+<h2 align="center">📜 Spellbook (Repositories)</h2>
+<table align="center" style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td style="width: 160px; vertical-align: top; padding-right: 20px;">
+      <img 
+        src="76ca3a7ce890e7405950404114988c27.jpg" 
+        alt="Spellbook Image" 
+        style="width: 400px; height: auto; border-radius: 10px;"
+      />
+    </td>
+    <td style="vertical-align: top; font-family: Arial, sans-serif; line-height: 1.5;">
+      <p style="font-style: italic; margin-top: 0;"></p>
+      <ul style="list-style: none; padding-left: 0; margin-top: 0;">
+        <li>🗃️ <a href="#" style="text-decoration: none; color: inherit;">Quest-Manager</a> — API для трекера квестов</li>
+        <li>🧾 <a href="#" style="text-decoration: none; color: inherit;">Player-Stats-Service</a> — CRUD для игровых данных</li>
+        <li>⚙️ <a href="#" style="text-decoration: none; color: inherit;">Battle-Backend</a> — Пока в разработке</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-  .glow-border {
-    border: 2px solid red;
-    border-radius: 18px;
-    animation: glow 2s infinite;
-  }
-</style>
 
-<h2 style="text-align: center;">📜 Spellbook (Repositories)</h2>
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; max-width: 1100px; margin: 0 auto;">
-  <!-- Картинка слева -->
-  <div class="glow-border" style="flex-shrink: 0;">
-    <img 
-      src="76ca3a7ce890e7405950404114988c27.jpg" 
-      alt="Spellbook Image" 
-      style="max-width: 200px; height: auto; display: block; border-radius: 8px;" 
-    />
-  </div>
 
-  <!-- Текст справа -->
-  <ul style="list-style: none; padding: 0; max-width: 600px; font-family: Arial, sans-serif; line-height: 1.5;">
-    <p style="font-style: italic;">*То чем занимаюсь*</p>
-    <li>🗃️ <a href="#" style="text-decoration: none; color: inherit;">Quest-Manager</a> — API для трекера квестов</li>
-    <li>🧾 <a href="#" style="text-decoration: none; color: inherit;">Player-Stats-Service</a> — CRUD для игровых данных</li>
-    <li>⚙️ <a href="#" style="text-decoration: none; color: inherit;">Battle-Backend</a> — Пока в разработке</li>
-  </ul>
-</div>
 
 
 <hr>
 
-<h2 style="text-align: center;">📡 Обращаться по</h2>
+<h2 align="center">📡 Contact with me</h2>
 
-<!-- Кнопка Telegram -->
-<div style="display: flex; justify-content: center; margin-top: 20px;">
-  <a 
-    href="https://t.me/Pojilai" 
-    target="_blank" 
-    style="
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      background-color: #3127c0ff;
-      color: white;
-      text-decoration: none;
-      padding: 12px 24px;
-      border-radius: 8px;
-      font-size: 18px;
-      font-family: Arial, sans-serif;
-      box-shadow: 0 0 10px rgba(69, 87, 255, 0.7);
-      transition: transform 0.2s, box-shadow 0.2s;
-    "
-    onmouseover="this.style.boxShadow='0 0 20px rgba(255, 0, 0, 0.9)'; this.style.transform='scale(1.05)'"
-    onmouseout="this.style.boxShadow='0 0 10px rgba(198, 40, 40, 0.7)'; this.style.transform='scale(1)'"
-  >
+
+<p align="center">
+  <a href="https://t.me/Pojilai" target="_blank" style="display: inline-block; text-decoration: none;">
     <img 
+      align="center" 
       src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" 
       alt="Telegram" 
-      width="30" 
-      height="30"
+      width="80" 
+      height="80" 
+      style="border-radius: 8px; box-shadow: 0 4px 8px rgba(49, 39, 30, 0.7);"
     />
-    Зубы показываем в Telegram
   </a>
-</div>
+</p>
+<hr>
+
+
 
 <!-- GIF на всю ширину -->
 <div style="margin-top: 30px;">
